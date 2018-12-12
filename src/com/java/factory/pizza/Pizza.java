@@ -1,4 +1,4 @@
-package com.java.factory.simplefactory;
+package com.java.factory.pizza;
 
 public interface Pizza {
     void prepare();

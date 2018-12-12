@@ -1,5 +1,7 @@
 package com.java.factory.simplefactory;
 
+import com.java.factory.pizza.Pizza;
+
 public class PizzaStore {
 
     private SimplePizzaFactory simplePizzaFactory;

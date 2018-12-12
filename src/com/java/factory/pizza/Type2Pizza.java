@@ -1,6 +1,7 @@
-package com.java.factory.simplefactory;
+package com.java.factory.pizza;
 
-public class Type1Pizza implements Pizza {
+public class Type2Pizza implements Pizza{
+
     @Override
     public void prepare() {
 
@@ -23,6 +24,6 @@ public class Type1Pizza implements Pizza {
 
     @Override
     public String getType() {
-        return "Type1 Pizza";
+        return "Type 2 Pizza";
     }
 }
