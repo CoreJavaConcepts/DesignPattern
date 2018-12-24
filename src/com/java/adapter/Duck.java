@@ -1,4 +1,4 @@
-package com.java.adapter.headfirstexample;
+package com.java.adapter;
 
 public interface Duck {
     public void quack();

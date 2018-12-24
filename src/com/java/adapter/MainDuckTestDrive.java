@@ -1,7 +1,14 @@
-package com.java.adapter.headfirstexample;
+package com.java.adapter;
 
 public class MainDuckTestDrive {
     public static void main(String[] args) {
+        //Can change other adapter exaple using https://www.geeksforgeeks.org/adapter-pattern/
+        // Bird (Interface) fly() makeNoice()
+        // Sparrow implements bird
+        // ToyDuck (Interface) squeak()
+        // PlasticToyduck implements ToyDuck
+        // BirdAdapter implements ToyDuck
+
         MallardDuck duck = new MallardDuck();
         WildTurkey turkey = new WildTurkey();
 
