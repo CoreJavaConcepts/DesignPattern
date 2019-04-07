@@ -2,7 +2,7 @@ package com.java.decorator;
 
 public class PizzaTwo extends Pizza {
     public PizzaTwo() {
-        setDescription("Pizza one");
+        setDescription("Pizza two");
     }
 
     @Override

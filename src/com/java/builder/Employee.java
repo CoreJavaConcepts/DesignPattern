@@ -80,7 +80,7 @@ public class Employee {
         //build method to create object
         public Employee build(){
             return new Employee(this);
-        }
+        }// passing this
 
     }
 
