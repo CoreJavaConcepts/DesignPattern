@@ -1,0 +1,30 @@
+Creational
+----------------
+- Factory
+- Abstract Factory
+- Singleton
+- Prototype
+- Builder
+
+F A B S
+
+Structural : Generally deal with relationships between entities, making it easier for these entities to work together
+------------
+- Adapter
+- Composit
+- Decorator
+- Facade
+
+Ad Co D F
+
+Behavioural : Used in communications between entities and make it easier and more flexible for these entities to communicate.
+--------------
+- Strategy
+- State
+- Template
+- Observer
+
+O St S T
+
+
+Strategy:

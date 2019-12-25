@@ -7,10 +7,10 @@ public class Main {
         PizzaStore nyPizzaStore = new NYStylePizzaStore();
         PizzaStore chicagoPizzaStore = new ChicagoStylePizzaStore();
 
-        Pizza nyPizza = nyPizzaStore.createPizza("NYtype1");
+        Pizza nyPizza = nyPizzaStore.orderPizza("NYtype1");
         System.out.println(nyPizza.getType());
 
-        Pizza chicagoPizza = chicagoPizzaStore.createPizza("CHtype2");
+        Pizza chicagoPizza = chicagoPizzaStore.orderPizza("CHtype2");
         System.out.println(chicagoPizza.getType());
     }
 }
