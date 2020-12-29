@@ -20,7 +20,7 @@ public abstract class OrderProcessTemplate {
 
     public abstract void doDelivery();
 
-    public final void processOrder(boolean isGift){
+    public final void processOrder(boolean isGift){//Final method
         doSelect();
         doPayment();
         if (isGift) {
